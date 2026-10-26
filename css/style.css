@@ -85,7 +85,98 @@ div#head p {
 
 
 #title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    /*filter: brightness(0.5);*/
+    background-size: 100% auto;
+}
 
+.green {
+    color: #0D9488;
+}
+
+.title-button1 {
+    background-color: #0D9488;
+    border-radius: 16px;
+    border: none;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 120px;
+}
+
+#h1-text {
+    font-size: 52px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+#h2-text {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+
+#h3-text {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+#title-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 114px;
+}
+
+.calc-pret {
+    background-color: #0D9488;
+    border-radius: 25px;
+    border: none;
+    height: 46px;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.serviciile {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    height: 46px;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    width: 760px;
+    transform: translateY(-50%);
+    padding: 20px 0 2 0px 0;
+    border-radius: 16px;
+}
+div#info div b{
+    font-size: 30px;
+    color: #0369A1;
+}
+
+div#info div p{
+    font-size: 13px;
+    color: #64748B;
 }
 
 #advantages {
