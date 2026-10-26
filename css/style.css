@@ -166,7 +166,7 @@ div#head p {
     background-color: #FFFFFF;
     width: 760px;
     transform: translateY(-50%);
-    padding: 20px 0 2 0px 0;
+    padding: 20px 0 0px 0;
     border-radius: 16px;
 }
 div#info div b{
@@ -179,8 +179,91 @@ div#info div p{
     color: #64748B;
 }
 
-#advantages {
 
+#advantages {
+    background-color: #F5FAFD;
+}
+
+.call {
+    position: relative;
+    transform: translateY(-20%);
+    left: 800px;
+    background-color: #0D9488;
+    border-radius: 25px;
+    border: none;
+    height: 56px;
+    color: #FFFFFF;
+    font-size: 15px; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center ;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0369A1;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    color: #0B1F33;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #64748B;
+}
+
+#blocks-adv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 40px 0 40px;
+    padding-bottom: 40px;
+}
+
+.block {
+    background-color: #FFFFFF;
+    width: 277px;
+    height: 196px;
+    border-top: #0369A1 4px solid;
+    padding: 0;
+    margin: 0;
+}
+
+.str {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin: 0;
+}
+
+#num {
+    font-size: 40px;
+    font-weight: bold;
+    color: #E0F2FE;
+    margin: 0;
+}
+
+h4 {
+    font-size: 18px;
+    color: #0B1F33;
+    padding-left: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h5 {
+    font-size: 15px;
+    color: #64748B;
+    padding-left: 20px;
+    margin: 0;
 }
 
 #servicii {
