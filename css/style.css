@@ -14,11 +14,14 @@
     font-size: 13px;
 }
 
+#hd {
+    position: sticky;
+}
+
 #head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     padding: 0 40px 0 40px;
     margin: 0;
 }
@@ -36,7 +39,6 @@ nav#menu ul{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    position: sticky;
     margin: 10px auto;
     padding: 0 30%;
     list-style: none;
@@ -266,8 +268,69 @@ h5 {
     margin: 0;
 }
 
-#servicii {
 
+#servicii {
+    margin-bottom: 70.5px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+    margin: 0;
+}
+
+.service {
+    width: 185px;
+    height: 289px;
+    border: 1px solid #E2E8F0;
+    border-radius: 25px;
+    padding: 9.5px;
+    margin: 0;
+}
+
+div.service img{
+    width: 185px;
+    height: 170px;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+div.service h1 {
+    justify-self: start;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0B1F33;
+    margin-top: 14px;
+}
+
+div.service h2 {
+    justify-self: start;
+    font-size: 13px;
+    color: #64748B;
+    margin: 0;
+}
+
+div.service h3 {
+    justify-self: start;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0369A1;
+    margin-top: 20px;
+}
+
+.label {
+    background-color: #0D9488;
+    height: 24px;
+    width: auto;
+    color: #FFFFFF;
+    position: absolute;
+    top: 19.5px;
+    left: 19.5px;
+    border-radius: 25px;
+    margin: 0;
+    padding: 5px;
 }
 
 #recenzii {
