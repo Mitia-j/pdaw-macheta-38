@@ -1,1 +1,4 @@
-# pdaw-macheta-09
+Jmud Dmitrii
+IT11Z
+
+Variant: 9
