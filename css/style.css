@@ -15,7 +15,11 @@
 }
 
 #hd {
+    background-color: #FFFFFF;
+    padding-bottom: 5px;
     position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 #head {
@@ -31,10 +35,10 @@ header hr {
     color: #000000;
     height: 1px;
     padding: 0 40px;
-    margin: 20px 0;
 }
 
 nav#menu ul{
+    font-family: 'Archivo', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,10 +96,11 @@ div#head p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/back.jpg);
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back.jpg);
     background-repeat: no-repeat;
-    /*filter: brightness(0.5);*/
     background-size: 100% auto;
+    height: 560px;
 }
 
 .green {
@@ -107,6 +112,7 @@ div#head p {
     border-radius: 16px;
     border: none;
     height: 30px;
+    padding: 10px;
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 120px;
@@ -168,7 +174,6 @@ div#head p {
     justify-content: space-evenly;
     background-color: #FFFFFF;
     width: 760px;
-    transform: translateY(-50%);
     padding: 20px 0 0px 0;
     border-radius: 16px;
 }
@@ -773,4 +778,79 @@ ul {
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
+}
+
+
+
+footer {
+    background-color: #0A2239;
+    padding-top: 48px;
+    color: #94A3B8;
+}
+
+#footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.logo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.logo span {
+    color: #0D9488;
+}
+
+#footer-about {
+    max-width: 240px;
+    margin: 18px 0 30px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+#social {
+    display: flex;
+    gap: 10px;
+}
+
+#social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #1F3349;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.footer-h3 {
+    justify-self: start;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-col > a:not(.logo) {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-col > a:not(.logo):hover {
+    color: #FFFFFF;
+}
+
+#copy {
+    margin-top: 30px;
+    padding: 22px 0;
+    border-top: 1px #2A3F57 solid;
+    font-size: 13px;
+    text-align: center;
+    width: 880px;
 }
