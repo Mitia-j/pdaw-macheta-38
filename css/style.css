@@ -86,6 +86,7 @@ div#head p {
 }
 
 
+
 #hero {
     display: flex;
     flex-direction: column;
@@ -183,6 +184,7 @@ div#info div p{
 }
 
 
+
 #advantages {
     background-color: #F5FAFD;
 }
@@ -268,6 +270,7 @@ h5 {
     padding-left: 20px;
     margin: 0;
 }
+
 
 
 #servicii {
@@ -408,6 +411,7 @@ div.service h3 {
 }
 
 
+
 #recenzii {
     background-color: #F5FAFD;
     padding-bottom: 50px;
@@ -519,9 +523,41 @@ div.service h3 {
     white-space: nowrap;
 }
 
-#la_lucru {
-
+#la-lucru {
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+section#la-lucru h1{
+    padding-top: 60px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 334px;
+    gap: 14px;
+    padding-top: 37px;
+}
+
+#mid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: 160px;
+    max-width: 334px;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.lucr-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+
 
 #abonamente {
 
