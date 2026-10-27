@@ -273,11 +273,16 @@ h5 {
     margin-bottom: 70.5px;
 }
 
+section#servicii h1{
+    margin-top: 60px;
+}
+
 #cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 21px;
-    margin: 0;
+    margin-top: 0;
+    padding-left: 20px;
 }
 
 .service {
@@ -287,17 +292,18 @@ h5 {
     border-radius: 25px;
     padding: 9.5px;
     margin: 0;
+    position: relative;
 }
 
 div.service img{
     width: 185px;
     height: 170px;
-    border-radius: 25px;
+    border-radius: 17px;
     margin: 0;
     padding: 0;
 }
 
-div.service h1 {
+div#cards div.service h1 {
     justify-self: start;
     font-size: 16px;
     font-weight: bold;
@@ -320,17 +326,83 @@ div.service h3 {
     margin-top: 20px;
 }
 
+#old {
+    justify-self: start;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0369A1;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.old-price {
+    position: absolute;
+    font-size: 12px;
+    color: #94A3B8;
+    text-decoration: line-through;
+    left: 100%;
+    top: -3px;
+    padding-left: 6px;
+    white-space: nowrap;
+}
+
 .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #0D9488;
     height: 24px;
-    width: auto;
     color: #FFFFFF;
     position: absolute;
-    top: 19.5px;
-    left: 19.5px;
-    border-radius: 25px;
-    margin: 0;
-    padding: 5px;
+    top: 12px;
+    left: 12px;
+    border-radius: 14px;
+    margin: 10px 10px;
+    padding: 1px 5px;
+}
+
+.label p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.fav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 30px;
+    color: #000000;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    margin: 7px;    
+}
+
+.fav p {
+    font-size: 15px;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0369A1;
+    height: 36px;
+    width: 36px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 9.5px;
+    right: 13.5px;
+    border-radius: 50%;   
+}
+
+.plus p {
+    font-size: 20px;
+    padding-bottom: 2px;
 }
 
 #recenzii {
