@@ -560,8 +560,149 @@ section#la-lucru h1{
 
 
 #abonamente {
-
+    background-color: #F5FAFD;
+    padding: 60px 40.5px 80px;
+    text-align: center;
 }
+
+ul {
+    list-style: none;
+}
+
+#abonamente-sub {
+    font-size: 14px;
+    color: #64748B;
+    margin-top: 8px;
+}
+
+#planuri {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 879px;
+    max-width: 100%;
+    margin: 56px auto 0;
+    gap: 20.5px;
+}
+
+.plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 279px;
+    padding: 28px 24px 28px;
+    border: 1px #E2E8F0 solid;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+#plan-h {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#plan-h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 14px 0 22px;
+    white-space: nowrap;
+}
+
+.price span {
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    color: #64748B;
+}
+
+.plan ul {
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+.plan li {
+    font-size: 14px;
+    padding: 6px 0;
+    margin-bottom: 6px;
+    border-bottom: 1px #E2E8F0 dashed;
+}
+
+.plan li::before {
+    content: "✓";
+    color: #0B5C94;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.btn {
+    display: block;
+    width: 143px;
+    height: 45px;
+    line-height: 41px;
+    margin: 0 auto;
+    border: 2px solid #0B5C94;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-outline {
+    color: #0B5C94;
+    background-color: transparent;
+}
+
+.btn-teal {
+    color: #FFFFFF;
+    background-color: #0D9488;
+    border-color: #0D9488;
+}
+
+.plan-hot {
+    margin: -15px 0;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    border: none;
+    background-color: #0A2239;
+    color: #FFFFFF;
+}
+
+.plan-hot .price span {
+    color: #94A3B8;
+}
+
+.plan-hot li {
+    border-bottom-color: #2A4160;
+}
+
+.plan-hot li::before {
+    color: #0D9488;
+}
+
+.badge {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 14px;
+    border-radius: 25px;
+    background-color: #0D9488;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
 
 #subscribe {
 
