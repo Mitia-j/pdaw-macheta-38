@@ -705,5 +705,72 @@ ul {
 
 
 #subscribe {
+    background-color: #0B69A3;
+    color: #FFFFFF;
+}
 
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#subscribe .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+#sub-h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#subscribe p {
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+#subscribe-form {
+    display: flex;
+    align-items: center;
+    width: 420px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    margin-right: 80px;
+}
+
+#subscribe-form input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    padding: 0 18px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 14px;
+    color: #0A2239;
+}
+
+#subscribe-form input::placeholder {
+    color: #94A3B8;
+}
+
+#subscribe-form button {
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0D9488;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
 }
