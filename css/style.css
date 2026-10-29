@@ -848,6 +848,7 @@ footer {
 
 #copy {
     margin-top: 30px;
+    margin-bottom: 0;
     padding: 22px 0;
     border-top: 1px #2A3F57 solid;
     font-size: 13px;
